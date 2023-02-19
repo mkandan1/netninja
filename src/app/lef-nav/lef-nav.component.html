@@ -1,0 +1,81 @@
+<div id="mobile" class="btnNav">
+    <span class="material-icons" (click)="showNav()">
+        menu
+    </span>
+</div>
+<nav class="nav d-block">
+    <div class="user-account">
+        <div id="logo-container">
+            <span class="material-icons" (click)="closeNav()">
+                close
+            </span>
+            <div id="logo">
+                <img src="/assets/logo.png" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div id="user-info">
+        <div id="my-account">
+            <a href="javascript:void(0)">
+                <img src="https://prod-avatar-svc.cloud.applause.com/1155964/image" class="img-fluid rounded-circle" />
+            </a>
+        </div>
+
+        <div id="user--quick-info">
+            <span>Mani Kandan</span>
+            <span id="nn-id">Developer ID: 001</span>
+            <span id="level">Level 1</span>
+        </div>
+
+        <span class="material-icons" id="user-info-arrow-down" (click)="showProfileNav()">
+            keyboard_arrow_down
+        </span>
+    </div>
+    <div id="developer-profile-nav" class="d-none">
+        <ul>
+            <li><a href="/account/my-profile">Developer Profile</a></li>
+            <li><a href="/profile/user/about">Community Profile</a></li>
+        </ul>
+    </div>
+
+    <ul class="left-nav-group">
+        <li class="left-nav-item">
+            <a href="/">
+                <span class="material-icons">
+                    home
+                </span>
+                Home
+            </a>
+        </li>
+        <li class="left-nav-item">
+            <a href="/projects">
+                <span class="material-icons">
+                    trip_origin
+                </span>
+                Project
+            </a>
+
+
+            <span class="material-icons" id="project-info-arrow-down" (click)="showProjectList()">
+                keyboard_arrow_down
+            </span>
+        </li>
+        <div id="project-list" class="d-none">
+            <ul>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/projects/assigned">Assigned Task</a></li>
+                <li><a href="/projects/assigned/closed">Closed project</a></li>
+            </ul>
+        </div>
+        <li class="left-nav-item">
+            <a href="/community">
+                <span class="material-icons">
+                    people_alt
+                </span>
+                Community
+            </a>
+        </li>
+    </ul>
+</nav>
