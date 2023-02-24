@@ -25,8 +25,8 @@
 
         <div id="user--quick-info">
             <span>Mani Kandan</span>
-            <span id="nn-id">Developer ID: 001</span>
-            <span id="level">Level 1</span>
+            <span id="nn-id">Tester ID: 001</span>
+            <span class="level">BRONZE</span>
         </div>
 
         <span class="material-icons" id="user-info-arrow-down" (click)="showProfileNav()">
@@ -35,8 +35,11 @@
     </div>
     <div id="developer-profile-nav" class="d-none">
         <ul>
-            <li><a href="/account/my-profile">Developer Profile</a></li>
+            <li><a href="/account/my-profile">Tester Profile</a></li>
             <li><a href="/profile/user/about">Community Profile</a></li>
+            <li><a href="/account/payments">Payments</a></li>
+            <li><a href="/account/advanced">Advanced Settings</a></li>
+            <li><a href="javascript:void(0)">Sign out</a></li>
         </ul>
     </div>
 
@@ -47,6 +50,14 @@
                     home
                 </span>
                 Home
+            </a>
+        </li>
+        <li class="left-nav-item">
+            <a href="/academy">
+                <span class="material-icons">
+                    school
+                </span>
+                Academy
             </a>
         </li>
         <li class="left-nav-item">
@@ -64,9 +75,10 @@
         </li>
         <div id="project-list" class="d-none">
             <ul>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/projects/assigned">Assigned Task</a></li>
-                <li><a href="/projects/assigned/closed">Closed project</a></li>
+                <li><a href="/testcycles">Test Cycles</a></li>
+                <li><a href="/issues">Issues</a></li>
+                <li><a href="/testcases">Test Cases</a></li>
+                <li><a href="/projects">Project Board</a></li>
             </ul>
         </div>
         <li class="left-nav-item">
@@ -78,4 +90,16 @@
             </a>
         </li>
     </ul>
+
+
+    <div class="divider"></div>
+    <div id="nav_footer">
+        <div id="nav_links">
+            <a href="/utest-clone-guidelines">uTest Clone Guidelines</a>
+            <a href="/terms-and-conditions">Terms & Conditions</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+        </div>
+
+        <span>© 2023 uTest clone</span>
+    </div>
 </nav>

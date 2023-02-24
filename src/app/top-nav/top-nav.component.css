@@ -4,7 +4,7 @@ header {
     height: 9vh;
     min-height: 5vh;
     max-height: 10vh;
-    background: linear-gradient(120deg, #34a3f7, #005391);
+    background:linear-gradient(270deg,#0369B0 0%,#00A8CC 60%);
     display: flex;
     justify-content: end;
 }

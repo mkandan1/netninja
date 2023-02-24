@@ -1,0 +1,141 @@
+#login {
+    display: flex;
+}
+
+.left-content {
+    width: 33vw;
+    height: 100vh;
+    padding-left: 1.9rem;
+    padding-right: .68rem;
+    padding-bottom: 4rem;
+    background-image:linear-gradient(rgba(11, 27, 171, 0), rgba(30, 35, 41, 0.8) 75%), url('/assets/programming.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.left-content > h2 {
+    margin-bottom: 2rem;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 2.5rem;
+    /* font-size: 1.8rem; */
+}
+
+#bottom__divider {
+    width: 5rem;
+    height: .8vh;
+    background-color: #027cc2;
+}
+
+/* Right component style */
+.right-content {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.right-content > div {
+    padding: 0 20rem;
+}
+
+
+#header__login > h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #404041;
+    padding-bottom: 2.7rem;
+}
+
+form > div > label {
+    font-weight: 700;
+    color: #6B6B6E;
+    margin-bottom: .28rem;
+    font-size: 1rem;
+}
+
+form > div > input {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 2.9rem;
+    outline: none;
+    border: 2px solid #9d9da0;
+    border-radius: 4px;
+    padding-left: .8rem;
+    font-family: 'DM Sans', sans-serif;
+}
+.remember-me  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-me > a {
+    text-decoration: none;
+    
+}
+
+.remember-me > label>  span {
+    margin-left: .5rem;
+    font-weight: 400 !important;
+}
+
+.btn__container {
+    padding-top: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #027cc2;
+    border: 0px;
+    border-radius: 30px;
+    padding: 1rem 3rem;
+    outline: none;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0e97e7;
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    
+}
+
+
+@media(min-width: 481px) and (max-width: 767px) {
+    .right-content {
+        width: 90%;
+     }
+    
+     .right-content > div {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 0 10px;
+     }
+
+     form > div > input {
+        width: 100%;
+     }
+    
+}
+
+@media screen and (max-width: 480px) {
+ .right-content {
+    width: 100%;
+ }
+
+ .right-content > div {
+    padding: 0 0 0 10px;
+ }
+    
+}

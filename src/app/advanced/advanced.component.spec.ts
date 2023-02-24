@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AssignedComponent } from './assigned.component';
+import { AdvancedComponent } from './advanced.component';
 
-describe('AssignedComponent', () => {
-  let component: AssignedComponent;
-  let fixture: ComponentFixture<AssignedComponent>;
+describe('AdvancedComponent', () => {
+  let component: AdvancedComponent;
+  let fixture: ComponentFixture<AdvancedComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AssignedComponent ]
+      declarations: [ AdvancedComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AssignedComponent);
+    fixture = TestBed.createComponent(AdvancedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
